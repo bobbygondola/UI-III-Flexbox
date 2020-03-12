@@ -49,12 +49,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 10%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+h1{
+	width: 300px;
+	font-size: 80px;
+	position: relative;
+	top: 210px;
+	left: 140px;
+	text-align: center;
+	}
+	#snippet{
+	position: relative;
+	left: 340px;
+	bottom: 120px;
+	}
+	nav , .logo{
+	display: inline-block;
+	}
+	.logo{
+	margin-left: 110px;
+	}
+	#navv , #nav1 , #nav2 , #nav3 , #nav4 , #nav5 {
+	margin-left: 40px;
+	color: grey;
+	}
+	alt{
+		position: relative;
+		left: 215px;
+		bottom: 130px;
+		background-color: white;
+		border: 1px solid black;
+		padding: 1px 35px 1px;
+
+		
+	}
+	.headers{
+		display: flex;
+		width: 800px;
+		height: 110px;
+		justify-content: space-between;
+	}
+
+	.features{
+		padding-right: 30px;;
+	}
+	#vision{
+		
+		width: 270px;
+		position: relative;
+		left: 600px;
+		bottom: 200px;
+		
+	}
+	#product{
+		
+		width: 270px;
+		position: relative;
+		left: 300px;
+		bottom: 70px;
+	}
+	#services{
+		
+		width: 270px;
+		position: relative;
+		top: 60px;
+	}
+	#contact{
+		
+		position: relative;
+		bottom: 100px;
+		width: 150px;
+	}
+	#phone{
+		position: relative;
+		bottom: 80px;
+	}
+	#email{
+		position: relative;
+		bottom: 50px;
+	}
+	footer{
+		text-align:center;
+	}
+	body{
+		
+		padding: 80px;
+		
+	}
